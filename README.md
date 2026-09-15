@@ -27,7 +27,7 @@ mounting drivers, and no need to restore a whole disk just to get one folder.
 Install Python 3.11 or newer, then:
 
 ```
-pip install nortonghost
+pip install git+https://github.com/cbeech/nortonghost
 ```
 
 Point every command at the **base** `.v2i` file. The spanned parts

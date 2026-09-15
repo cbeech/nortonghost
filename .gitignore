@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+test-results.xml
+.venv/
+venv/
+
+# Real disk images are enormous and contain personal data; never commit
+# them. Put working copies in samples/ instead. Small synthetic fixtures
+# under tests/fixtures/ are fine.
+*.v2i
+*.sv2i
+*.gho
+extracted/
+mounted/
+test-results.xml
+
+# Exception: small real fixtures are safe and useful to commit
+!tests/fixtures/
+!tests/fixtures/*.sv2i
